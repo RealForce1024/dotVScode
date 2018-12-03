@@ -1,0 +1,36 @@
+{
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    // "io-run.executorMap.common": {
+    //     ".py": {
+    //         "runCmd": "python3 ${codeFile} <${inputFile} >${outputFile}"
+    //     }
+    // },
+    "editor.snippetSuggestions": "top",
+    "python.autoComplete.addBrackets": true,
+    "python.formatting.provider": "yapf",
+    // "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "Derby",
+    "[elixir]": {
+        "editor.quickSuggestions": true,
+        "editor.wordBasedSuggestions": true,
+        "editor.acceptSuggestionOnEnter": "on",
+    },
+    "search.smartCase": true,
+    "workbench.sideBar.location": "left",
+    "center-editor-window.threeStateToggle": true,
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "city-lights-icons-vsc.hidesExplorerArrows": false,
+    "workbench.iconTheme": "vscode-icons",
+}

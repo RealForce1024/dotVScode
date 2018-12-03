@@ -1,0 +1,62 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+f",
+        "command": "-extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-extension.vim_ctrl+n",
+        "when": "editorTextFocus && vim.active && vim.use<C-n> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    {
+        "key": "cmd+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "cmd+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "editor.action.marker.nextInFiles",
+        "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "editor.action.marker.prevInFiles",
+        "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+n", // "cmd+n" on mac
+        "command": "extension.advancedNewFile",
+    },
+    {
+        "command": "gotoLastEdit.goBack",
+        "key": "ctrl+-",
+        "mac": "cmd+-",
+        "when": "editorTextFocus"
+    },
+    {
+        "command": "gotoLastEdit.goForward",
+        "key": "ctrl+=",
+        "mac": "cmd+=",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    }
+]
