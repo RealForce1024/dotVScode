@@ -43,7 +43,7 @@
 	"map": {
 		"prefix": "ms",
 		"body": [
-			"%{$k:$v}",
+			"%$1{$k: $v}",
 		],
 		"description": "print something"
 	},
