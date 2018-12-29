@@ -19,7 +19,6 @@
         "strings": true
     },
     "python.jediEnabled": false,
-    "workbench.colorTheme": "Derby",
     "[elixir]": {
         "editor.quickSuggestions": true,
         "editor.wordBasedSuggestions": true,
@@ -33,4 +32,5 @@
     },
     "city-lights-icons-vsc.hidesExplorerArrows": false,
     "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Derby",
 }
